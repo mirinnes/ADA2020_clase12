@@ -1,0 +1,37 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    height: 500px; width: 500px;
+}
+
+.cuadrito {
+    background-color: ceimson;
+    height: 100px;
+    position: absolute; /*busca el q tiene el position:relative - 
+                        si no encuentra ninguno, lo hace relative a body*/
+
+    /* valores posibles:
+    1 absoluta
+    2 relativa
+    3 fixed 
+    4 static 
+    */
+    width: 100px;
+
+}
+
+.cuadrito-2 {
+    background-color: teal;
+    height: 100px;
+    position:  fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+}

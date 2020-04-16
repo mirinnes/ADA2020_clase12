@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(231, 182, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mono {
+    font-family: 'Nova Mono', monospace;
+}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+.regular, .info-row label {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.card {
+    position: relative;
+    background-size: 40%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    height: 75vh;
+    width: 46vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    background-position-x: 40px;
+    background-position-y: 100px;
+}
+
+.img {
+    background-image: url(img/Reebok-Fast-M-red.png);
+}
+
+.img-info {
+    text-align: center;
+    left: 60px;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    bottom: 40px;
+}
+.img-info p, .img-info h2 {
+    margin: 10px 0;
+}
+.img-info h1 {
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+.parte-gris {
+    justify-content: space-around;
+    padding: 40px 50px;
+    background-color: rgb(68, 67, 67);
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-visa {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.title-visa img {
+    margin-right: 10px;
+    width: 50px;
+    transform: rotate(90deg);
+}
+.field-info {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.field-info input {
+    color: white;
+    border: none;
+    height: 40px;
+    background-color: rgb(68, 67, 67);
+    font-size: 17px;
+    letter-spacing: 3px;
+    width: 255px;
+}
+.info-row {
+    margin: 7px 0;
+}
+.field-info .info-row:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    margin: 0 18px 0 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.col input {
+    width: 100%;
+}
+button {
+    color: white;
+    align-items: center;
+    height: 50px;
+    border: none;
+    border-radius: 36px;
+    background-color: rgb(128, 36, 0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+button h1 {
+    margin: 0;
+    font-size: 13px;
+}
+
+button i {
+    position: absolute;
+    right: 10px;
+}

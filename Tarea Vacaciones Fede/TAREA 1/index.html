@@ -1,0 +1,120 @@
+<!--
+    https://cdn.dribbble.com/users/208967/screenshots/2872460/082_dailyui_form.jpg
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f40a1a82d4.js" crossorigin="anonymous"></script>
+</head>
+<body>        
+    <div class="card-shopping">
+        <header>
+
+            <h1>SHPPNG</h1>
+            <p class="gris">Shopping Bag > <span style="color: rgb(158, 117, 255); font-weight: 700;"> Checkout </span> > Confirmation</p>
+            <i class="fas fa-shopping-cart"></i>
+
+        </header>
+        <section>
+
+
+            <form class="form-1 card" action="#" method="POST">
+                        <h1 class="card-title">Personal Information</h1>
+
+                        <div class="top-row">
+                            <div class="field-name">
+                                <label class="gris card-subtitle">First Name</label>
+                                <input type="text" name="first-name" id="">
+                            </div>
+
+                            <div class="field-surname">
+                                <label class="gris card-subtitle">Last Name</label>
+                                <input type="text" name="last-name" id="">
+                            </div>
+                        </div>
+
+                            <div class="field-email">
+                                <label class="gris card-subtitle">Email Adress</label>
+                                <input type="email" name="email" id="">
+                            </div>
+                        
+                            <div class="field-street">
+                                <label class="gris card-subtitle">Street</label>
+                                <input type="text" name="street" id="">
+                            </div>
+
+                        <div class="bottom-row">
+                            <div class="field-city">
+                                <label class="gris card-subtitle">City</label>
+                                <input type="text" name="city" id="">
+                            </div>
+                            <div class="field-country">
+                                <label class="gris card-subtitle">Country</label>
+                                <input type="text" name="country" id="">
+                            </div>
+                        </div>
+
+                            <div class="field-phone">
+                                <label class="gris card-subtitle">Phone Number</label>
+                                <div class="numbers">
+                                    <input class="telephone" type="number" name="phone" id="">
+                                    <input class="little-box" type="number" value="???"/>
+                                </div>
+                            </div>
+            </form>
+
+            <div class="deliv ">
+
+                    <form action="#" class="form-2 card" method="GET">
+
+                            <h1 class="card-title">Delivery</h1>
+                            <label class="gris card-subtitle">Delivery Fee</label>
+
+                            <div class="field-buttons">
+
+                                <input type="radio" id="3-4" class="radio" name="delivery"/>
+                                <label class="box" for="3-4">
+                                        <h1>5 <sup>$</sup> </h1>
+                                        <p>3-4 weeks</p>
+                                </label>
+
+                                <input type="radio" id="2-5" class="radio" name="delivery"/>
+                                <label class="box" for="2-5">
+                                        <h1>0 <sup>$</sup> </h1> 
+                                        <p>2-5 days</p>
+                                </label>
+                                
+                            </div>
+
+                            <div class="field-comments">
+                            <p class="gris card-subtitle-2">Estimated delivery date: <span style="font-weight: 900; color: rgb(150, 150, 150);">August 4th</span></p>
+                            <p class="gris card-subtitle-2">Every package has a tracking number.</p>
+                            </div>
+                    </form>
+
+                    <form class="form-3" action="#" method="GET">
+                        <div class="field-checkbox">
+                            <label class="gris card-subtitle-2"><input type="radio" name="subscribe">Subscribe to our news letter</label>
+                            <label class="gris card-subtitle-2"><input type="radio" name="subscribe">Create an account</label>
+                        </div>
+
+                        <button type="submit">Confirm my order</button>
+                    </form>
+                    
+
+
+
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>

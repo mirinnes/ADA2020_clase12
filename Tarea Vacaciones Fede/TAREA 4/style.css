@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+
+}
+p, h1, h2 {
+    margin: 0;
+}
+
+.proto {
+    background-color: fuchsia;
+}
+.ladak {
+    background-color: cornflowerblue;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ojito {
+    background-color: black;
+    height: 40px;
+    width: 35%;
+}
+/*----------------------------------------*/
+header {
+    position: fixed;
+    align-items: center;
+    display: inline-flex;
+    height: 9vh;
+    background-color: black;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+/*----------------------------------------*/
+.hero {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+}
+.hero--field {
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero--background {
+    background-image: url(img/toan-chu-YKN_G9L9nMA-unsplash.jpg);
+}
+.hero-text h1 {
+    font-size: 50px;
+}
+.hero-text p {
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.hero-text button {
+    font-size: 15px;
+    padding: 16px 50px;
+}
+.box-photo--hero {
+    margin: 0 -2px;
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+}
+/*----------------------------------------*/
+.main-section {
+    text-align: center;
+}
+.main-section > h1 {
+    font-weight: 400;
+    margin: 30px 0 0;
+    font-size: 40px;
+}
+/*----------------------------------------*/
+.container--photos{
+    width: fit-content;
+    display: inline-block;
+}
+.container--row {
+    margin: 30px 0;
+}
+.container--row div:nth-child(2) {
+    margin: 0 25px;
+}
+.container--big-box {
+    display: inline-block;
+    height: 290px;
+    width: 530px;
+}
+.container--small-box {
+    display: inline-block;
+    height: 290px;
+    width: 250px;
+}
+/*----------------------------------------*/
+.container--aboutme {
+    margin: 50px 0 50px;
+    width: 1090px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.box--aboutme {
+    width: 50%;
+}
+.whois {
+    margin-left: 30px;
+    border: 1px solid black;
+}
+.myrecent h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+.myrecent h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.subox--myrecent {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.subox--myrecent aside {
+    width: 50%;
+}
+.subox--myrecent article {
+    text-align: left;
+    margin: 0px 0 0 25px;
+    width: 50%
+}
+.subox--myrecent article p {
+    color: rgb(180, 180, 180);
+    margin: 10px 0 0 0;
+    width: fit-content;
+    font-size: 20px;
+}
+/*----------------------------------------*/
+.dwhero-background {
+    background-image: url(img/juniperphoton-WHrbPnT9sRI-unsplash.jpg);
+}
+.down-hero {
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -115px;
+    height: 50vh;
+}
+.box-row--downhero {
+    display: inline-block;
+    width: fit-content;
+}
+.box-row--downhero h1 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+.box-photo--downhero {
+    margin: 10px 10px;
+    display: inline-block;
+    width: 160px;
+    height: 150px;
+}
+/*----------------------------------------*/
+
+
+footer {
+    display: flex;
+    position: absolute;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: center;
+}
